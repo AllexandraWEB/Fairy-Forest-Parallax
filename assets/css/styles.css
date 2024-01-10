@@ -124,6 +124,10 @@ body {
     text-shadow: 0 0 13px #9d822b;
 }
 
+.main-article_title:hover {
+    text-shadow: 0 0 13px #c7ac55;
+}
+
 .main-article_paragraph {
     max-width: calc(var(--index) * 23);
     font-size: calc(var(--index) * .7);
