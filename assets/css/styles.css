@@ -146,3 +146,15 @@ body {
     font-size: calc(var(--index) * .55);
     opacity: .45;
 }
+
+/* === SCROLL BAR === */
+
+::-webkit-scrollbar {
+    width: .65rem;
+    border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #635422;
+    border-radius: .5rem;
+}
